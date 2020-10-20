@@ -1,0 +1,102 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  font-size: 4vh;
+  margin: 0;
+  height: 100vh;
+  background-color: rgba(29, 29, 29);
+}
+
+nav ul a {
+  /*  background-color: rgb(255, 0, 149); */
+  height: 0.001vw;
+  color: rgb(200, 255, 0);
+  color: yellow;
+}
+
+.headerlink {
+  position: absolute;
+  display: inline-block;
+  margin: 0;
+  /*  background-color: red; */
+  font-weight: 2px;
+  letter-spacing: -4px;
+  line-height: 4rem;
+  text-transform: uppercase;
+  z-index: 2;
+  text-decoration: none;
+  font-size: 4vh;
+  box-sizing: content-box;
+  color: rgb(255, 255, 255);
+}
+
+.List-main {
+  position: absolute;
+  right: 0;
+  display: flex;
+  list-style: none;
+  text-decoration: none;
+  flex-flow: column nowrap;
+  align-items: flex-end;
+  /* background-color: rgb(181, 169, 161); */
+  margin-right: 0px;
+  margin-top: 5;
+  padding-top: 3%;
+  padding-right: 5%;
+  width: 100%;
+  z-index: 1;
+}
+
+.thelisttitle {
+  text-decoration: none;
+}
+
+.roberto {
+  display: block;
+  padding: 2;
+  line-height: 8vw;
+}
+
+body nav ul li {
+  position: relative;
+  font-family: "Alfa Slab One", cursive;
+  letter-spacing: 0.1vw;
+  text-transform: uppercase;
+  line-height: 6vw;
+  margin-top: -3vw;
+  padding: 3vw;
+  transform: skew(170deg, -10deg);
+  transform-origin: right top;
+  transform-style: preserve-3d;
+  text-decoration: none;
+  font-size: 9vw;
+  font-weight: 550;
+  text-align: right;
+}
+
+body nav ul li:hover {
+  transition: transform 2s cubic-bezier(0.075, 0.82, 0.165, 1);
+  transform: skew(-15deg, 15deg);
+  transform: rotateY(355deg);
+  background-color: rgba(29, 29, 29, 0.6);
+}
+
+.footers {
+  position: fixed;
+  display: flex;
+  flex-flow: column nowrap;
+  bottom: 0;
+  z-index: 1;
+  color: rgb(255, 0, 149);
+}
+
+.githublink {
+  text-decoration: none;
+}
+
+.cvlink {
+  text-decoration: none;
+}
+
+.linkedinlink {
+  text-decoration: none;
+}
